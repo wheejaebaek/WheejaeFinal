@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- html tag represents the entire html document -->
+<html lang="en" dir="ltr">
+  <!-- head tag represents all non visible content on the page -->
+  <head>
+    <!-- tell the browser what character set we are using -->
+    <meta charset="utf-8">
+    <!-- title that goes in the tab bar -->
+    <title>My rad site</title>
+    <!-- link the animation library stylesheet, and then our own stylesheet -->
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <!-- body tab represents all the visible content on our page -->
+  <body>
+    <!-- div holding all our navigation elements -->
+    <div class="nav">
+      <a href="index.html" >Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <!-- div for the home page content -->
+    <div id='home' class="page">
+      <div>
+        <!-- special animation classes applied to the h1 element to make it fade down from the top after 1 second -->
+        <h1 class='animated fadeInDown delay-1s'><em>
+          <!-- these spans aren't really needed as we couldn't get the per word animation to work -->
+          <span>Orange</span>
+          <span>Creative</span>
+        </em></h1>
+        <h3 class='animated lightSpeedIn delay-1s'><em>Juice // Acid // Peel</em></h3>
+      </div>
+
+    </div>
+  </body>
+</html>

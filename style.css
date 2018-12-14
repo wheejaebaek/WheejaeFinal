@@ -1,0 +1,259 @@
+/* import a font from google */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+/* main styles for the body, global background color, text color, font, 0 out margin */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fafafa;
+  color: #black;
+  margin: 0;
+}
+
+
+/* styles for the nav */
+/* position fixed keeps the nav from scrolling off screen */
+/* top and left position the nav */
+/* flex styling keeps the nav elements nicely spaced out */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #fdfdfd;
+}
+
+/* a tags withing .nav should have a set color ( so they don't turn blue ) */
+/* and no decoration */
+.nav a {
+  color: #fdfdfd;
+  text-decoration: none;
+}
+
+/* apply a line through style to nav a tags on hover */
+.nav a:hover {
+  text-decoration: line-through;
+}
+
+/* 0 out the margin on divs */
+div {
+  margin: 0;
+}
+
+/* styles for the home page */
+/* set the background image */
+/* and flex align all the content on the page */
+#home {
+  background-image: url("images/image-1.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#home h1 {
+  font-size: 8em;
+  margin: 16px;
+}
+#home h2 {
+   font-size: 6em;
+   margin: 10px
+}
+#home h3 {
+  text-align: center;
+  margin: 0;
+}
+
+#home p {
+  font-style: italic;
+  font-size: 3em;
+  font-color: solidblack;}
+
+#image-7 {
+  background-image: url("wheejaeprofilepicture.jpg");}
+
+/* style for the projects pageg */
+/* silly background rainbow gradient */
+#projects {
+  background: linear-gradient(red, pink, yellow);
+}
+
+/* projects container stores all the project images */
+/* padding to keep from overlapping with the nav */
+/* flex style to keep all the projects looking nice */
+.projects-container {
+  padding-top: 64px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* project div styles */
+/* background image displays the project image */
+.Projects {
+  width: 500px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin: 16px;
+}
+
+/* styles for project detail page */
+#project-detail {
+  background-color: orange;
+}
+
+#project-detail h1 {
+  padding-top: 128px;
+  font-size: 8em;
+  margin-top: 0;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+#project-detail p {
+  font-size: 2em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#project-detail img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 64px;
+}
+
+
+/* some default page styles */
+/* min width and min height so our images always take the whole page */
+.page {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+/* this should probably be scoped to the nav but we didn't get there */
+a {
+  font-size: 2em;
+}
+
+
+/* project specific styling */
+/* set background image and change bg position where needed */
+#image-1 {
+  background-image: url("characterdesigntitlepage.jpg");
+}
+#image-2 {
+  background-image: url("figuredrawingtitlepage.jpg");
+}
+#image-3 {
+  background-image: url("mayaanimationtitleimage.JPG");
+}
+#image-4 {
+  background-image: url("myfilmtitlepage.JPG");
+}
+#image-5 {
+  background-image: url("snowpart2titlepage.jpg");
+}
+#image-6 {
+  background-image: url("yesmissiontitleimage.JPG");
+}
+
+
+name {color:blue;}
+div p{text-decoration: underline;}
+body {padding: 16px;}
+div a {
+  color: red;
+}
+
+div > a {color: blue;}
+
+div + a {color: green;}
+
+body {padding: 16px;}
+#first-name {color: blue; font-size: 32px;}
+#last-name {color: red; font-size: 48px;}
+.crossed-out {font-size: 24px; text-decoration: line-through;}
+.border {border: 5px solid green;}
+body {padding: 16px;}
+div {display: all;}
+.color-1 {background-color: papayawhip;}
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans|Open+Sans');
+
+h2 {font-family:'IBM Flex Mono', monospace;}
+h3 {max width: 400px}
+h3 {font-family:'IBM Flex Mono'}
+.pixel {
+  font-size: 32px;
+}
+.em {
+  font-size: 3em;
+}
+.vw {
+  font-size: 8vw;
+}
+
+body {
+  padding: 14px;
+}
+img {
+  display: inline-block;
+  border: 5px solid red;
+  padding: 40;
+
+    px;
+  margin: 32px;
+
+  //line-height: 100%;
+  //text-align: center;
+  width: 100;
+    px;
+  //height: 100px}
+  div projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 50vh;}
+
+  img {
+    height: 200px;
+    margin: 16px;
+    border: 1px solid black;
+  }
+
+  .img {height: 110px; margin: 17px; border: 2px; solidblack;}
+  body{background-image: url(https://img.freepik.com/free-vector/cute-colorful-kitten-pow-pattern-design_1017-14710.jpg?size=338&ext=jpg);}
+
+
+  div
+  .body=
+  .container {padding-top: 32px; display: repeat; flex-wrap: wrap;}
+  .flexer {width: 150px; height: 145px; background-color: yellow; border-radius: 115px;}
+  .container {
+    display: flex;
+    flex-direction: repeat;
+    justify-content: repeat;
+    align-items: center;
+  }
+
+  div
+  button {padding: 16px;
+  display: block;
+  margin: 50px auto;}
+
+  button:active + div {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-image: url(https://vignette.wikia.nocookie.net/howtotrainyourdragon/images/3/3b/Hiccup_and_Toothless_Flying.gif/revision/latest?cb=20170129223742); background-size: cover;
+    background-position: center;}
